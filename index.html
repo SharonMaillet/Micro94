@@ -218,21 +218,9 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <!--The div element for the map -->
-            <div id="map"></div>
-               <script>
-                 // Initialize and add the map
-                 function initMap() {
-                   // The location of Uluru
-                   var uluru = { lat: 48.8181845, lng: 2.3976961 };
-                   // The map, centered at Uluru
-                   var map = new google.maps.Map(
-                     document.getElementById('map'), { zoom: 14, center: uluru });
-                   // The marker, positioned at Uluru
-                   var marker = new google.maps.Marker({ position: uluru, map: map });
-                 }
-               </script>
-          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYF-1VJZx_GjglVw0Nrr0p-tTvMBd2nMA&callback=initMap"></script>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10508.408009797007!2d2.3976705!3d48.8181152!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ea08db2021bfafd!2sFranco-asia%20MICRO94!5e0!3m2!1sfr!2sfr!4v1575653397094!5m2!1sfr!2sfr"
+  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>  
         <div class="col-md-6">
           <div class="detail-info">
